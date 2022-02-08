@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Cuadros de la Naturaleza",
+        "price": 7500,
+        "thumbnail": "https://m.media-amazon.com/images/I/51oNndiTgkL.jpg"
+   },
+   {
+        "id": 2,
+        "title": "Personal Narrative of a Journey to the Equinoctial Regions of the New Continent",
+        "price": 4200,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_971422-MLA42636902351_072020-O.webp"
+   },
+   {
+        "id": 3,
+        "title": "La Invención de la Naturaleza",
+        "price": 4100,
+        "thumbnail": "https://imagessl8.casadellibro.com/a/l/t5/88/9788430618088.jpg"
+   },
+   {
+        "id": 4,
+        "title": "The Birds of America",
+        "price": 8000,
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71-dduVRpbL.jpg"
+   }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="flavicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+        <title>Entrega #4 - Backend 17070</title>
+    </head>
+    <body>
+        <h1>— Entrega #4 - del Castillo —</h1>
+<!-- TABLE -->
+        <div class="section">
+            <h2>Library</h2>
+            <button id="boton" class="waves-effect waves-light btn">See available stock</button>
+            <table>
+                <thead id="head">
+                </thead>
+                <tbody id="res">
+                </tbody>
+            </table>
+        </div>
+        <hr>
+<!-- FORM -->
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <input placeholder="Write down a book title" type="text" id="title" name="book_title">
+                </li>
+                <li>
+                    <input placeholder="What's the book price?" type="number" id="price" name="book_price">
+                </li>
+                <li>
+                    <input placeholder="Paste a link to an image" type="url" id="photo" name="book_photo"></input>
+                </li>
+            </ul>
+            <button class="waves-effect waves-light btn">Add book to catalog</button>
+        </form>
+<!-- SCRIPTS -->
+        <script type='text/javascript' src='ajax.js'></script>  
+    </body>
+</html>

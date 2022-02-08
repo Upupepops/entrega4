@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+body {
+    font-family: 'Oranienbaum', serif;
+    margin: 10rem;
+    background-color: #fafafa;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+.thumbnail > a > img {
+    max-height: 6rem;
+}
+hr {
+    width: 80%;
+    border: 1px solid #872ddb;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+button {
+    background-color: #7944aa!important;
+    border-radius: 5rem!important;
+}
